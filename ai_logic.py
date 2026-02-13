@@ -2,8 +2,8 @@
 # pip install google-genai
 
 import os
-from google import genai
-from google.genai import types
+import google.generativeai as genai
+from google.generativeai as genai import types
 
 
 def generate():
